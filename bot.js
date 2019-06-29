@@ -146,7 +146,6 @@ client.on('message', async message => {
     }
 
     //Use this to remove a roles permission to use the bot
-    //TODO: FIX ARRAY ISSUE
     if (command === 'removeadminrole') {
         for (var arg of args) {
             if (AuthorizedRoles.has(arg)) {
